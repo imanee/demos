@@ -1,0 +1,77 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "801343bdaac96f97c41c7fd32d7973b9",
+    "packages": [
+        {
+            "name": "imanee/imanee",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imanee/imanee.git",
+                "reference": "be5da03050c38db97ddee3fcf8ab0b3447b96240"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/be5da03050c38db97ddee3fcf8ab0b3447b96240",
+                "reference": "be5da03050c38db97ddee3fcf8ab0b3447b96240",
+                "shasum": ""
+            },
+            "require": {
+                "ext-imagick": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Imanee": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erika Heidi",
+                    "email": "erika@erikaheidi.com"
+                },
+                {
+                    "name": "Hugo Reinaldo",
+                    "email": "hugo.reinaldo@gmail.com"
+                }
+            ],
+            "description": "A PHP Image Manipulation Library based on Imagemagick",
+            "homepage": "http://imanee.github.com/imanee",
+            "keywords": [
+                "ImageMagick",
+                "image",
+                "imagick",
+                "manipulation",
+                "php"
+            ],
+            "time": "2013-09-18 14:53:07"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "imanee/imanee": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
