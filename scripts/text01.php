@@ -1,20 +1,12 @@
 <?php
-
-/**
- * basic text writing using the default Drawer and relative positioning.
- */
-
-include "common.php";
+/* title: Writing Text */
+/* description: Writing text with default Drawer and using relative positioning  */
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 
-$res_jpg = __DIR__ . '/../resources/img01.jpg';
-
 header("Content-type: image/jpg");
+$imanee = new Imanee(__DIR__ . '/../resources/img01.jpg');
 
-$imanee = new Imanee($res_jpg);
-$before = clone $imanee;
-
-$imanee->placeText('testing imanee', Imanee::IM_POS_MID_CENTER);
-
-echo generateBeforeAfter($before, $imanee)->output();
+echo $imanee->placeText('testing imanee', Imanee::IM_POS_MID_CENTER)
+    ->output();

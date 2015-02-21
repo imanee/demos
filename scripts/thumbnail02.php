@@ -1,20 +1,12 @@
 <?php
-
-/**
- * produces a cropped thumbnail with exact size 200x200 (centered cropping)
- */
-
-include "common.php";
+/* title: Cropped Thumbnails */
+/* description: Produces a cropped thumbnail with the exact provided dimensions. Great for creating square thumbs without user input. */
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 
-$res_jpg = __DIR__ . '/../resources/img01.jpg';
-
 header("Content-type: image/jpg");
+$imanee = new Imanee(__DIR__ . '/../resources/img01.jpg');
 
-$imanee = new Imanee($res_jpg);
-$before = clone $imanee;
-
-$imanee->thumbnail(200, 200, true);
-
-echo generateBeforeAfter($before, $imanee)->output();
+echo $imanee->thumbnail(200, 200, true)
+    ->output();

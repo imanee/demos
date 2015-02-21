@@ -1,20 +1,12 @@
 <?php
-
-/**
- * produces a smaller image that fits in the area 300x300
- */
-
-include "common.php";
+/* title: Resize to Fit */
+/* description: Resizes an image to fit in the provided dimensions, keeping proportion */
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 
-$res_jpg = __DIR__ . '/../resources/img01.jpg';
-
 header("Content-type: image/jpg");
+$imanee = new Imanee(__DIR__ . '/../resources/img01.jpg');
 
-$imanee = new Imanee($res_jpg);
-$before = clone $imanee;
-
-$imanee->resize(300, 300);
-
-echo generateBeforeAfter($before, $imanee)->output();
+echo $imanee->resize(300, 300)
+    ->output();

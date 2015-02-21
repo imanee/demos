@@ -1,10 +1,7 @@
 <?php
-
-/**
- * creates an animated gif based on an array of images
- */
-
-include "common.php";
+/* title: Animated Gifs from an array */
+/* description: Generates an animated gif from an array of images */
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 

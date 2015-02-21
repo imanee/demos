@@ -1,5 +1,5 @@
 {
     "require": {
-      "imanee/imanee": "1.0.*@dev"
+      "imanee/imanee": "~1.0"
     }
 }

@@ -1,9 +1,7 @@
 <?php
-
-/**
- * places 4 different png images on the 4 corners of the original image (placeImage method)
- * using relative positioning
- */
+/* title: Creating a collage */
+/* description: Placing images on top of another image, using relative positioning */
+include __DIR__ . '/../vendor/autoload.php';
 
 include "common.php";
 
@@ -19,11 +17,11 @@ $res_png4 = __DIR__ . '/../resources/cat04.png';
 header("Content-type: image/jpg");
 
 $imanee = new Imanee($res_jpg);
-$before = clone $imanee;
 
-$imanee->placeImage($res_png1, Imanee::IM_POS_TOP_LEFT)
+$imanee
+    ->placeImage($res_png1, Imanee::IM_POS_TOP_LEFT)
     ->placeImage($res_png2, Imanee::IM_POS_TOP_RIGHT)
     ->placeImage($res_png3, Imanee::IM_POS_BOTTOM_LEFT)
     ->placeImage($res_png4, Imanee::IM_POS_BOTTOM_RIGHT);
 
-echo generateBeforeAfter($before, $imanee)->output();
+echo $imanee->output();

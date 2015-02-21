@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/../../imanee/vendor/autoload.php';
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 

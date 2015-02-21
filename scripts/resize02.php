@@ -1,20 +1,12 @@
 <?php
-
-/**
- * produces a smaller image with exact dimensions 300x300 (doesn't care about proportions)
- */
-
-include "common.php";
+/* title: Resizing precisely */
+/* description: Resizes an image to the exact provided dimensions (doesn't care about proportion) */
+include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
 
-$res_jpg = __DIR__ . '/../resources/img01.jpg';
-
 header("Content-type: image/jpg");
+$imanee = new Imanee(__DIR__ . '/../resources/img01.jpg');
 
-$imanee = new Imanee($res_jpg);
-$before = clone $imanee;
-
-$imanee->resize(300, 300, false);
-
-echo generateBeforeAfter($before, $imanee)->output();
+echo $imanee->resize(300, 300, false)
+    ->output();

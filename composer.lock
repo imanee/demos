@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21c67a27ce83f50eb210c8c0299f55e9",
+    "hash": "b43db43cc1d68b3ec0ebf466bcf3bea1",
     "packages": [
         {
             "name": "imanee/imanee",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imanee/imanee.git",
-                "reference": "8c2e9cadc377822d5103a26290b45d3597d468aa"
+                "reference": "c0f2cd8c500bfb3945e125f412273b9e91139c94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imanee/imanee/zipball/8c2e9cadc377822d5103a26290b45d3597d468aa",
-                "reference": "8c2e9cadc377822d5103a26290b45d3597d468aa",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/c0f2cd8c500bfb3945e125f412273b9e91139c94",
+                "reference": "c0f2cd8c500bfb3945e125f412273b9e91139c94",
                 "shasum": ""
             },
             "require": {
@@ -46,10 +46,6 @@
                 {
                     "name": "Erika Heidi",
                     "email": "erika@erikaheidi.com"
-                },
-                {
-                    "name": "Hugo Reinaldo",
-                    "email": "hugo.reinaldo@gmail.com"
                 }
             ],
             "description": "A PHP Image Manipulation Library based on Imagemagick",
@@ -58,18 +54,16 @@
                 "ImageMagick",
                 "image",
                 "imagick",
-                "manipulation",
-                "php"
+                "php",
+                "processing"
             ],
-            "time": "2014-10-23 10:27:43"
+            "time": "2015-02-20 17:40:28"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "imanee/imanee": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
