@@ -12,4 +12,6 @@ $frames[] = __DIR__ . '/../resources/cat04.png';
 
 header("Content-type: image/gif");
 
-echo Imanee::arrayAnimate($frames, 30);
+$imanee = Imanee::arrayAnimate($frames, 30);
+
+echo $imanee->output();

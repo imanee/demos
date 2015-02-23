@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "imanee/imanee",
-            "version": "1.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imanee/imanee.git",
-                "reference": "c0f2cd8c500bfb3945e125f412273b9e91139c94"
+                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imanee/imanee/zipball/c0f2cd8c500bfb3945e125f412273b9e91139c94",
-                "reference": "c0f2cd8c500bfb3945e125f412273b9e91139c94",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
+                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "php",
                 "processing"
             ],
-            "time": "2015-02-20 17:40:28"
+            "time": "2015-02-23 14:37:12"
         }
     ],
     "packages-dev": [],
