@@ -3,8 +3,6 @@
 /* description: Placing images on top of another image, using relative positioning */
 include __DIR__ . '/../vendor/autoload.php';
 
-include "common.php";
-
 use Imanee\Imanee;
 
 $res_jpg = __DIR__ . '/../resources/img01.jpg';
