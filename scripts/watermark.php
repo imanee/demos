@@ -1,7 +1,8 @@
 <?php
 /* title: Watermarks */
 /* description: Places a watermark with transparency at the bottom right of the image.
-   The last parameter is optional and defines the transparency in percentage (higher = more transparent)
+   The last parameter is optional and defines the transparency* in percentage (higher = more transparent)<br/>
+   <em>*GDResource currently doesn't handle transparency on image compositions.</em>
 */
 include __DIR__ . '/../vendor/autoload.php';
 

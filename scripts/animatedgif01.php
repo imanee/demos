@@ -1,6 +1,7 @@
 <?php
 /* title: Animated Gifs from an array */
-/* description: Generates an animated gif from an array of images */
+/* description: Generates an animated gif from an array of images. <br/>
+<strong>This feature is not supported by GDResource.</strong> */
 include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;

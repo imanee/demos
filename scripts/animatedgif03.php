@@ -1,6 +1,7 @@
 <?php
 /* title: Rainbow Text Gifs */
-/* description: Generates a "rainbow" animated effect in a text */
+/* description: Generates a "rainbow" animated effect in a text. <br/>
+<strong>This feature is not supported by GDResource.</strong> */
 include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;

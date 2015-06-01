@@ -1,27 +1,26 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b43db43cc1d68b3ec0ebf466bcf3bea1",
+    "hash": "f953c0c9dabab480013193b9e7743f8a",
     "packages": [
         {
             "name": "imanee/imanee",
-            "version": "1.0.2",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imanee/imanee.git",
-                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052"
+                "reference": "c717685e2ae680fadb3804f5e54b1fff5972a4fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imanee/imanee/zipball/39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
-                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/c717685e2ae680fadb3804f5e54b1fff5972a4fc",
+                "reference": "c717685e2ae680fadb3804f5e54b1fff5972a4fc",
                 "shasum": ""
             },
             "require": {
-                "ext-imagick": "*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -49,7 +48,7 @@
                 }
             ],
             "description": "A PHP Image Manipulation Library based on Imagemagick",
-            "homepage": "http://imanee.github.com/imanee",
+            "homepage": "http://imanee.io",
             "keywords": [
                 "ImageMagick",
                 "image",
@@ -57,7 +56,7 @@
                 "php",
                 "processing"
             ],
-            "time": "2015-02-23 14:37:12"
+            "time": "2015-06-01 11:28:55"
         }
     ],
     "packages-dev": [],
