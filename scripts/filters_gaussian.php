@@ -1,6 +1,6 @@
 <?php
-/* title: Using Filters - Color */
-/* description: This example uses the built-in <strong>color</strong> filter */
+/* title: Using Filters - Gaussian */
+/* description: This example uses the built-in <strong>gaussian</strong> filter */
 include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
