@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f953c0c9dabab480013193b9e7743f8a",
+    "packages": [
+        {
+            "name": "imanee/imanee",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imanee/imanee.git",
+                "reference": "88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9",
+                "reference": "88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "ext-imagick": "*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imanee\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erika Heidi",
+                    "email": "erika@erikaheidi.com"
+                }
+            ],
+            "description": "PHP Image Manipulation Library",
+            "homepage": "http://imanee.io",
+            "keywords": [
+                "ImageMagick",
+                "gd",
+                "image",
+                "imagick",
+                "php"
+            ],
+            "time": "2015-06-13 14:49:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
