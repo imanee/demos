@@ -1,30 +1,31 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "b43db43cc1d68b3ec0ebf466bcf3bea1",
     "packages": [
         {
             "name": "imanee/imanee",
-            "version": "1.0.2",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imanee/imanee.git",
-                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052"
+                "reference": "88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imanee/imanee/zipball/39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
-                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9",
+                "reference": "88ce8921ee1b5e9255a2616d5f0cde5ebbe14dd9",
                 "shasum": ""
             },
             "require": {
-                "ext-imagick": "*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
+                "ext-gd": "*",
+                "ext-imagick": "*",
                 "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
@@ -48,16 +49,16 @@
                     "email": "erika@erikaheidi.com"
                 }
             ],
-            "description": "A PHP Image Manipulation Library based on Imagemagick",
-            "homepage": "http://imanee.github.com/imanee",
+            "description": "PHP Image Manipulation Library",
+            "homepage": "http://imanee.io",
             "keywords": [
                 "ImageMagick",
+                "gd",
                 "image",
                 "imagick",
-                "php",
-                "processing"
+                "php"
             ],
-            "time": "2015-02-23 14:37:12"
+            "time": "2015-06-13 14:49:05"
         }
     ],
     "packages-dev": [],
