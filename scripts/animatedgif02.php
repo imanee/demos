@@ -1,6 +1,7 @@
 <?php
 /* title: Animated Gifs from a directory */
-/* description: Generates an animated gif from files following a directory pattern */
+/* description: Generates an animated gif from files following a directory pattern. <br/>
+<strong>This feature is not supported by GDResource.</strong> */
 include __DIR__ . '/../vendor/autoload.php';
 
 use Imanee\Imanee;
